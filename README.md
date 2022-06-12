@@ -47,7 +47,7 @@ Things you may want to cover:
 | user       | references | null: false foreign_key: true|
 
 - has_many :comments
-- belongs_to
+- belongs_to :user
 
 
 ## comments テーブル
@@ -59,4 +59,4 @@ Things you may want to cover:
 | user       | references |null: false foreign_key: true|
 
 - belongs_to :user
-- belongs_to :user
+- belongs_to :prototypes
